@@ -101,3 +101,30 @@ Once you are inside the `lang-segment-anything/` folder, run the following to fi
 ```bash
 pip install -e .
 ```
+
+**Adding the groundedsam env to jupyter kernel:**
+
+
+```bash
+pip install ipykernel
+python -m ipykernel install --user --name=groundedsam
+```
+
+# :arrow_forward: Demo
+
+Sample python code to run the GroundedSAM
+
+```python
+text_prompt, BOX_THRESHOLD = "fish", 0.30
+model = LangSAM()
+masks, boxes, phrases, logits = model.predict(image_pil, text_prompt, box_threshold=BOX_THRESHOLD)  
+```
+
+Run the following code for background removal:
+
+```bash
+python background-removal.py \
+-d input \
+-n INHS_FISH_005052.jpg \
+-o output
+```
