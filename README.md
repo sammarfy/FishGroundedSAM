@@ -120,7 +120,7 @@ model = LangSAM()
 masks, boxes, phrases, logits = model.predict(image_pil, text_prompt, box_threshold=BOX_THRESHOLD)  
 ```
 
-Run the following code for background removal:
+Run the following code for fish background removal:
 
 ```bash
 python background-removal.py \
