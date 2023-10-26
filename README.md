@@ -128,3 +128,14 @@ python background-removal.py \
 -i INHS_FISH_005052.jpg \
 -o output
 ```
+
+# :hearts: Acknowledgement
+This project is based on the following repositories:
+- [lang-segment-anything](https://github.com/luca-medeiros/lang-segment-anything)
+- [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)
+- [Segment-Anything](https://github.com/facebookresearch/segment-anything)
+
+
+
+
+
