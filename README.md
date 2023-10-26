@@ -14,9 +14,7 @@ Now, you should set the GroundingDINO separately.
 
 ## Installing GroundingDINO first
 
-**Note:**
-
-0. If you have a CUDA environment, please ensure the environment variable `CUDA_HOME` is set. It will be compiled under CPU-only mode if no CUDA is available.
+**Note:** If you have a CUDA environment, please ensure the environment variable `CUDA_HOME` is set. It will be compiled under CPU-only mode if no CUDA is available.
 
 Please make sure to follow the installation steps strictly; otherwise, the program may produce the following: 
 ```bash
