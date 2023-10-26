@@ -125,6 +125,6 @@ Run the following code for background removal:
 ```bash
 python background-removal.py \
 -d input \
--n INHS_FISH_005052.jpg \
+-i INHS_FISH_005052.jpg \
 -o output
 ```
