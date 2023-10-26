@@ -1,5 +1,5 @@
 # FishGroundedSAM
-This repository is for fish background removal.
+This repository is for fish background removal using GroundedSAM.
 
 # :hammer_and_wrench: Install 
 
